@@ -1,12 +1,15 @@
 {
-	"name": "@diba1013/typescript-starter",
+	"name": "@diba1013/types",
 	"version": "0.0.1",
 	"description": "",
-	"keywords": [],
+	"keywords": [
+		"typescript",
+		"types"
+	],
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/diba1013/typescript-starter.git"
+		"url": "git://github.com/diba1013/types.git"
 	},
 	"author": "diba1013",
 	"engines": {

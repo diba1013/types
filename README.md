@@ -1,3 +1,3 @@
-# tscz
+# types
 
-A small wrapper for esbuild rolllup libraries
+Commonly used types for typescript.
