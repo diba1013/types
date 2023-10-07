@@ -2,10 +2,14 @@
 	"extends": "./tsconfig.base.json",
 	"compilerOptions": {
 		"baseUrl": ".",
-		"lib": ["ESNext"],
 		"paths": {
 			"@/*": ["src/*"]
 		}
 	},
-	"include": ["src/**/*.ts", "test/**/*.ts", "tscz.config.ts"]
+	"include": [
+		"src/**/*.ts",
+		"test/**/*.ts",
+		"tscz.config.ts",
+		"vitest.config.ts"
+	]
 }
