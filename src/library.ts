@@ -42,6 +42,11 @@ export type Constructor<T> = new (...parameters: unknown[]) => T;
 export type MaybePromise<T> = T | PromiseLike<T> | Promise<T>;
 
 /**
+ * An type representing a single or multiple values.
+ */
+export type MaybeArray<T> = T | T[];
+
+/**
  * An value that is either present or absent.
  */
 export type Optional<T> = T | undefined;
