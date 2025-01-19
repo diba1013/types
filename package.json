@@ -21,12 +21,12 @@
 		"dist"
 	],
 	"exports": {
-		"import": "./dist/index.js",
-		"require": "./dist/index.cjs"
+		"import": "./dist/library.js",
+		"require": "./dist/library.cjs"
 	},
-	"main": "./dist/index.cjs",
-	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"main": "./dist/library.cjs",
+	"module": "./dist/library.js",
+	"types": "./dist/library.d.ts",
 	"scripts": {
 		"prepare": "husky",
 		"build": "tscz",

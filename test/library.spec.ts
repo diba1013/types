@@ -1,4 +1,4 @@
-import { NONE, UNDEFINED } from "@/index";
+import { NONE, UNDEFINED } from "@/library";
 import { expect, it } from "vitest";
 
 it("NONE should be null", () => {

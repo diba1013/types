@@ -1,4 +1,4 @@
-import { Callable, Runnable } from "@/index";
+import type { Callable, Runnable } from "@/library";
 import { describe, expectTypeOf, it } from "vitest";
 
 describe("Runnable", () => {

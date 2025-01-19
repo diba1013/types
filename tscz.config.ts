@@ -12,8 +12,8 @@ export default defineConfig({
 	name: NAME,
 	entries: [
 		{
-			name: "index",
-			input: input("index.ts"),
+			name: "library",
+			input: input("library.ts"),
 			output: ["cjs", "esm", "dts"],
 		},
 	],

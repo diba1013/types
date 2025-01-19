@@ -29,10 +29,7 @@ export type Runnable<Output = void, Input = never> = (input: Input) => Output;
  *
  * @see Runnable
  */
-export type Callable<Output = void, Input = never> = Runnable<
-	MaybePromise<Output>,
-	Input
->;
+export type Callable<Output = void, Input = never> = Runnable<MaybePromise<Output>, Input>;
 
 /**
  * Defines a constructable instance for a class
