@@ -17,5 +17,8 @@ export default defineConfig({
 			exclude: ["src/**/*.types.ts"],
 			reporter: ["html", "text-summary", "lcovonly"],
 		},
+		typecheck: {
+			enabled: true,
+		},
 	},
 });
